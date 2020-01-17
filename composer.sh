@@ -3,6 +3,10 @@ echo "Next NG Composer"
 
 WORKDIR=$PWD
 
+echo "[INFO] Updating dependencies"
+
+nvm install v10.16.2
+
 echo "[INFO] Cloning next_ng_presentation" 
 git clone http://bitbucket.intranet.ifis.local/scm/fe/next_ng_presentation.git
 

@@ -31,17 +31,22 @@ bash ng-presentation-runner.sh --build
 
 ---
 
-### Override URL
+### Next NG Presentation Config DEV | SIT env
 
-If you want to work with DEV in localhost, you should to override the URL.
+1. Copy sources > application.yml
 
-Create a file `application.yml` in `/home/IFIS/<your-username>/.ibaf/configuration/override_properties/` with the following content.
+   `/home/IFIS/your-username/.ibaf/configuration/override_properties/`
 
-```yml
-arch:
-  presentation:
-    proxy:
-      forwarding:
-        url: "http://sdlboasrv.intranet.ifis.local:80"
+    ```yml
+    arch:
+      presentation:
+        proxy:
+          forwarding:
+            url: "http://sdlboasrv.intranet.ifis.local:80"
+    ```
 
-```
+    > SIT: http://silboasrv.intranet.ifis.local:80
+    >
+    > DEV: http://sdlboasrv.intranet.ifis.local:80
+
+2. Rebuild Next_ng_presentation

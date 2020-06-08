@@ -70,14 +70,15 @@ With this repository you can clone and configure the development environment for
 ## Procedura Next (Contributo di Gregorio La Gamba)
 
 0. Step preliminari (da fare solo se la macchina non è stata mai configurata)
-  0.1 Github di riferimento: https://github.com/edinsonjim/next-ng-composer
-  0.2 Aprire un Terminal
-  0.3 Digitare il comando: `cd workspace`
-  0.4 Digitare il comando: `git clone https://github.com/edinsonjim/next-ng-composer.git`
-  0.5 Digitare il comando: `cd next-ng-composer`
-  0.6 Digitare il comando: `bash composer.sh`
-  0.7 Digitare il comando: `git config --global credential.helper store` (serve per evitare che chieda sempre credenziali)
-  0.8 Chiudere Terminal
+
+   - Github di riferimento: https://github.com/edinsonjim/next-ng-composer
+   - Aprire un Terminal
+   - Digitare il comando: `cd workspace`
+   - Digitare il comando: `git clone https://github.com/edinsonjim/next-ng-composer.git`
+   - Digitare il comando: `cd next-ng-composer`
+   - Digitare il comando: `bash composer.sh`
+   - Digitare il comando: `git config --global credential.helper store` (serve per evitare che chieda sempre credenziali)
+   - Chiudere Terminal
 
 1. Accedere alla VM
 2. Aprire Terminal

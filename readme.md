@@ -70,14 +70,15 @@ With this repository you can clone and configure the development environment for
 ## Procedura Next (Contributo di Gregorio La Gamba)
 
 0. Step preliminari (da fare solo se la macchina non è stata mai configurata)
-    0.1 Github di riferimento: https://github.com/edinsonjim/next-ng-composer
-    0.2 Aprire un Terminal
-    0.3 Digitare il comando: cd workspace
-    0.4 Digitare il comando: git clone https://github.com/edinsonjim/next-ng-composer.git
-    0.5 Digitare il comando: cd next-ng-composer
-    0.6 Digitare il comando: bash composer.sh
-    0.7 Digitare il comando: git config --global credential.helper store (serve per evitare che chieda sempre credenziali)
-    0.8 Chiudere Terminal
+  0.1 Github di riferimento: https://github.com/edinsonjim/next-ng-composer
+  0.2 Aprire un Terminal
+  0.3 Digitare il comando: `cd workspace`
+  0.4 Digitare il comando: `git clone https://github.com/edinsonjim/next-ng-composer.git`
+  0.5 Digitare il comando: `cd next-ng-composer`
+  0.6 Digitare il comando: `bash composer.sh`
+  0.7 Digitare il comando: `git config --global credential.helper store` (serve per evitare che chieda sempre credenziali)
+  0.8 Chiudere Terminal
+
 1. Accedere alla VM
 2. Aprire Terminal
     2.1 Digitare il comando: code .ibaf/configuration/override_properties/application.yml
@@ -96,15 +97,15 @@ With this repository you can clone and configure the development environment for
 
     2.3 Salvare il file e chiudere Visual Studio Code
 3. Rimanere nel Terminal
-    3.1 Digitare il comando: cd workspaces/next-ng-composer/next_ng_frontend/nextng-fe
-    3.2 Digitare il comando: git branch
+    3.1 Digitare il comando: `cd workspaces/next-ng-composer/next_ng_frontend/nextng-fe`
+    3.2 Digitare il comando: `git branch`
       3.2.1 Se siamo sul branch features passiamo al punto 3.3
-      3.2.2 Altrimenti digitare il comando: git checkout -b features/next-ng-fe origin/features/next-ng-fe
-    3.3 Digitare il comando: git pull
-    3.4 Digitare il comando: npm start
+      3.2.2 Altrimenti digitare il comando: `git checkout -b features/next-ng-fe origin/features/next-ng-fe`
+    3.3 Digitare il comando: `git pull`
+    3.4 Digitare il comando: `npm start`
 4. Aprire altro Terminal
-    4.1 Digitare il comando: cd workspaces/next-ng-composer/next_ng_presentation
-    4.2 Digitare il comando: bash runner.sh --user ext.glagamba --build
+    4.1 Digitare il comando: `cd workspaces/next-ng-composer/next_ng_presentation`
+    4.2 Digitare il comando: `bash runner.sh --user ext.glagamba --build`
 5. Avviare il browser
     5.1 Avviare l'applicativo dall'url: http://localhost:4200
 6. Enjoy!

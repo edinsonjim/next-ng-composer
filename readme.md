@@ -82,7 +82,7 @@ With this repository you can clone and configure the development environment for
 
 1. Accedere alla VM
 2. Aprire Terminal
-   1. Digitare il comando: code .ibaf/configuration/override_properties/application.yml
+   1. Digitare il comando: `code .ibaf/configuration/override_properties/application.yml`
    2. Si apre l'applicativo Visual Studio Code da cui poter modificare il file, che dovrà avere questo contenuto:
 
       ```yml

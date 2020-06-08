@@ -71,42 +71,42 @@ With this repository you can clone and configure the development environment for
 
 0. Step preliminari (da fare solo se la macchina non è stata mai configurata)
 
-   - Github di riferimento: https://github.com/edinsonjim/next-ng-composer
-   - Aprire un Terminal
-   - Digitare il comando: `cd workspace`
-   - Digitare il comando: `git clone https://github.com/edinsonjim/next-ng-composer.git`
-   - Digitare il comando: `cd next-ng-composer`
-   - Digitare il comando: `bash composer.sh`
-   - Digitare il comando: `git config --global credential.helper store` (serve per evitare che chieda sempre credenziali)
-   - Chiudere Terminal
+   1. Github di riferimento: https://github.com/edinsonjim/next-ng-composer
+   2. Aprire un Terminal
+   3. Digitare il comando: `cd workspace`
+   4. Digitare il comando: `git clone https://github.com/edinsonjim/next-ng-composer.git`
+   5. Digitare il comando: `cd next-ng-composer`
+   6. Digitare il comando: `bash composer.sh`
+   7. Digitare il comando: `git config --global credential.helper store` (serve per evitare che chieda sempre credenziali)
+   8. Chiudere Terminal
 
 1. Accedere alla VM
 2. Aprire Terminal
-   - Digitare il comando: code .ibaf/configuration/override_properties/application.yml
-   - Si apre l'applicativo Visual Studio Code da cui poter modificare il file, che dovrà avere questo contenuto:
+   1. Digitare il comando: code .ibaf/configuration/override_properties/application.yml
+   2. Si apre l'applicativo Visual Studio Code da cui poter modificare il file, che dovrà avere questo contenuto:
 
-   ```yml
-   arch:
-     presentation:
-       proxy:
-         forwarding:
-           # url server di dev multichannel
-           # url: "http://sdlboasrv.intranet.ifis.local:80"
-           # url server di BE interno (da modificare ad inizio giornata con puntamento corretto)
-           url: "http://vdlxendev075:8080"
-   ```
+      ```yml
+      arch:
+        presentation:
+          proxy:
+            forwarding:
+              # url server di dev multichannel
+              # url: "http://sdlboasrv.intranet.ifis.local:80"
+              # url server di BE interno (da modificare ad inizio giornata con puntamento corretto)
+              url: "http://vdlxendev075:8080"
+      ```
 
-   - Salvare il file e chiudere Visual Studio Code
+   3. Salvare il file e chiudere Visual Studio Code
 3. Rimanere nel Terminal
-   - Digitare il comando: `cd workspaces/next-ng-composer/next_ng_frontend/nextng-fe`
-   - Digitare il comando: `git branch`
-   - Se siamo sul branch features passiamo al punto 3.3
-   - Altrimenti digitare il comando: `git checkout -b features/next-ng-fe origin/features/next-ng-fe`
-   - Digitare il comando: `git pull`
-   - Digitare il comando: `npm start`
+   1. Digitare il comando: `cd workspaces/next-ng-composer/next_ng_frontend/nextng-fe`
+   2. Digitare il comando: `git branch`
+      1. Se siamo sul branch features passiamo al punto 3.3
+      2. Altrimenti digitare il comando: `git checkout -b features/next-ng-fe origin/features/next-ng-fe`
+   3. Digitare il comando: `git pull`
+   4. Digitare il comando: `npm start`
 4. Aprire altro Terminal
-   - Digitare il comando: `cd workspaces/next-ng-composer/next_ng_presentation`
-   - Digitare il comando: `bash runner.sh --user ext.glagamba --build`
+   1. Digitare il comando: `cd workspaces/next-ng-composer/next_ng_presentation`
+   2. Digitare il comando: `bash runner.sh --user ext.glagamba --build`
 5. Avviare il browser
-   - Avviare l'applicativo dall'url: http://localhost:4200
+   1. Avviare l'applicativo dall'url: http://localhost:4200
 6. Enjoy!

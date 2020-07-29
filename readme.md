@@ -107,6 +107,6 @@ With this repository you can clone and configure the development environment for
 4. Aprire altro Terminal
    1. Digitare il comando: `cd workspaces/next-ng-composer/next_ng_presentation`
    2. Digitare il comando: `bash runner.sh --user ext.glagamba --build`
-5. Avviare il browser
+5. Avviare il browser Chrome, Firefox nella VM non è compatibile.
    1. Avviare l'applicativo dall'url: http://localhost:4200
 6. Enjoy!
